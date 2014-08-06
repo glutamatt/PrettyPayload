@@ -1,4 +1,4 @@
-function () {
+(function () {
     var elements = document.getElementsByClassName('msg-payload');
     for (var i = 0; i < elements.length; i++) {
         var element = elements[i];
@@ -8,4 +8,4 @@ function () {
             // not a JSON string
         }
     }
-}();
+})();
