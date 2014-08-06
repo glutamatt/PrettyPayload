@@ -1,0 +1,1 @@
+Bookmarklet to prettify JSON payloads in RabbitMQ Management Plugin.
