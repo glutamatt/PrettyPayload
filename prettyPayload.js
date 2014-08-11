@@ -1,3 +1,3 @@
-$('pre.msg-payload').each(function(i,e){
-    var p = $(e); p.html(JSON.stringify(JSON.parse(p.html()),null,4))
-})
+$('pre.msg-payload').each(function(i,d){try{
+    $(d).html(JSON.stringify(JSON.parse($(d).html()),null,4))
+} catch(e) {}})
